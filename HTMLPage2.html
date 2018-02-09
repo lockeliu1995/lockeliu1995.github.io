@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <title></title>
+</head>
+<body>
+    <div class=" intro-header ">
+        <div class="container">
+            <div class=" row">
+                <div class="col-lg-8">
+                    <div class=" site-heading">
+                        <h1 style=" color : white ;font-size:50px">Zelin Liu</h1>
+                        <span style=" color : white ;font-size:40px">Graduate Student in University of Southern California</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--menu-->
+    <div class="menu container " style="margin-top:50px; height:50px;">
+        <ul class="nav nav-tabs nav-justified">
+            <li role="presentation" ><a href="index.html">Education History</a></li>
+            <li role="presentation" class="active"><a href="#">Research Interest</a></li>
+            <li role="presentation"><a href="#">Internship</a></li>
+        </ul>
+    </div>
+    <div>
+        <div class=" container">
+            <div class=" row ">
+                <!--context1-->
+                <div class=" col-lg-8 context2" style=" box-shadow :grey 0px 5px 20px">
+                    <div class=" block1">
+                        <div class="row" style="  margin-bottom:10px">
+                            <h2 class="mytitle">Analysis to the Instability of Power Grid</h2>
+                            <div class=" row">
+                                <div class=" col-lg-12 " style=" padding :0 50px"><hr class=" aline" /></div>
+                            </div>
+                        </div>
+                        <div class=" row context1">
+                            <div class="col-lg-7 "></div>
+                            <div class="col-lg-5" style=" text-align :right ">May,2015 -- May,2016</div>
+                        </div>
+
+                        <!--<div class=" row context1 ">
+                            <div class="col-lg-8 ">Viterbi School of Engineering</div>
+                        </div>
+
+                        <div class=" row context1">
+                            <div class="col-lg-8 ">Electrical Engineering (Electrical Power)</div>
+                            <div class="col-lg-4 youduiqi" style=" text-align :right ">GPA:3.90/4.00</div>
+                        </div>-->
+                        <br />
+                        <div class=" row context1">
+                            The instability of the power grid is largely depends on the eignvalue of the system matrix, and the sensitivity of the eignvalue
+                            can somehow explain the reason of the instability in system. Practically speaking, numerical method are largely applied in the 
+                            calculation of the eignvalue sensitivity. Under this project, we firstly use the real step differential method and complex step
+                            differential method to verify the speed of these two methods. It turns out that the complex step differential method are becoming
+                            instable when the rank of the system matrix is larger than 5, while real step differential method always perform well. Moreover,
+                            interpolation and integral operator method are also compared in this project.
+                        </div>
+                        <br />
+                        <div class=" row context1 ">
+                            After finish the previous verification, We continue on analysing the signal extraction method in LFO(Low Frequency Oscillation). 
+                            In this project, Prony method and HHT(Hilbert-Huang Transformation) are applied. Prony shows a great merit in the sinusodial signal
+                            extraction. However, its noise immunity performs unsatisfying compare to other method. From the experiment, the Prony method only works
+                            under the SNR is greater than 100dB, which is impossible to reach in industry. HHT method, also is more complex than the Prony method, 
+                            performs well under the noise and shows a error under 10^-15! Thus, our conclusion is that HHT method will become popular in the future
+                            power system analysis.
+                        </div>
+                    </div>
+                    <div class=" block1 ">
+                        <div class="row " style="  margin-bottom:10px">
+                            <h2 class="mytitle">Dietary Recommendation Model based on Linear Programming Method</h2>
+                            <div class=" col-lg-12 " style=" padding :0 50px"><hr class=" aline" /></div>
+                        </div>
+
+                        <div class=" row context1">
+                            <div class="col-lg-7 "></div>
+                            <div class="col-lg-5" style=" text-align :right ">May,2016 -- May,2017</div>
+                        </div>
+
+                        <!--<div class=" row context1">
+                            <div class="col-lg-8 ">Chu Kochen Honors College</div>
+                        </div>
+
+                        <div class=" row context1">
+                            <div class="col-lg-8 ">Electrical Engineering and its Automation</div>
+                            <div class="col-lg-4" style=" text-align :right ">GPA:3.53/4.00</div>
+                        </div>-->
+                        <br />
+                        <div class=" row context1">
+                            Among the modern university student, the unbalanced dietary and awful nutrition arrangement has sharply contrast to
+                            the high nutritious demand for intelletual work. In this project, we tend to analysis the ingredient of the food in 
+                            university's canteen and works out a model that satisfied the daily nutrition demand given by the Food Guide Pyramid 
+                            through the linear programming method includes the linear optimization and goal programming. Moreover, considering 
+                            that under the restriction given by DRIs and Food Guide Pyramid there are many available solutions, we tend to make
+                            the diatery recommandation more diverse by set a preference for each user. Also includes the approach of 0-1 method since that
+                            some food are indivisable, we finally works out a reasonable dietary recommandation for the whole campus.
+                        </div>
+                    </div>
+                    <div class=" block1 ">
+                        <div class="row" style="  margin-bottom:10px">
+                            <h2 class="mytitle">LFO Mode identification and Oscillation Sources Location based on EMD</h2>
+                            <div class=" col-lg-12 " style=" padding :0 50px"><hr class=" aline" /></div>
+                        </div>
+
+                        <div class=" row context1 ">
+                            <div class="col-lg-7 "></div>
+                            <div class="col-lg-5" style=" text-align :right ">Sep,2016 -- May,2017</div>
+                        </div>
+                        <br />
+                        <div class=" row context1">
+                            This graduate essay is mainly focus on solving the oscillation mode identification problem and oscillation source 
+                            location problem in low-frequency oscillation based on Empirical Mode Decomposition. Compared with other nowadays algorithm, 
+                            The Empirical Mode Decomposition not only shows an adequately faster calculating speed and higher noise immunity, 
+                            but also enables the extraction of the instantaneous parameters of the signal, including instantaneous frequency and instantaneous amplitude. 
+                            And eventually I work out the appliance of the EMD in the process of oscillation mode identification.
+                            Because the force oscillation theory is believed to explain the origin of the low-frequency oscillation appropriately, 
+                            I choose to use the traditional energy function algorithm to locate the oscillation source. 
+                            Both the theory and the simulation proves that it is capable for oscillation source location. 
+                            Since there is always noise in the real power system, I try to combine the EMD with the traditional energy function algorithm in order to decrease the effect of the noise.
+                            Simulation results proves that it is more efficient compared to traditional energy function algorithm.
+                        </div>
+                        <br />
+                    </div>
+                </div>
+                <!--side-->
+                <div class="col-lg-3 col-lg-offset-1 rightblock context2" style=" box-shadow :grey 0px 5px 20px">
+                    <h2>About Me</h2>
+                    <div class=" rightblock2 ">
+                        <div class=" row " style=" padding :20px 4px"><hr class=" aline" /></div>
+                        <div class=" row rightblock2">
+                            After graduated from Zhejiang University, I'm now persuing a MS degree in Univerisity of Southern California.
+                            Still major in electrical power system, I tend to focus myself on the control and design of the smart grid.
+                        </div>
+                        <br></br>
+                        <div class=" row rightblock2">
+                            In the future, I tend
+                            to get involved in several research project in order to boost my knowledge in smart grid field and carry on the optimization of the modern system.
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class=" myfooter" style=" text-align : center ">
+
+        <div class=" row " style="font-size :20px"> Copyright © Zelin Liu 2017 </div>
+        <div class=" row"> lockeliu1995@gmail.com</div>
+    </div>
+</body>
+</html>
